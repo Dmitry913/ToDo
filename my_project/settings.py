@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    # 'social.apps.django_app.default',
     'Todoapp.apps.TodoappConfig',
     'Authorization.apps.AuthorizationConfig',
     'rest_framework.authtoken',

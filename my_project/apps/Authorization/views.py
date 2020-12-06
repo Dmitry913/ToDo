@@ -1,13 +1,12 @@
-from django.shortcuts import render
-from django.views import View
-from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, login, logout
 import json
-from django.http import JsonResponse
+
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import User
 from django.db.utils import IntegrityError
-from rest_framework.authtoken.models import Token
-import sys
+from django.http import JsonResponse
+from django.views import View
 from email_validator import validate_email, EmailNotValidError
+from rest_framework.authtoken.models import Token
 
 
 class Registration(View):
