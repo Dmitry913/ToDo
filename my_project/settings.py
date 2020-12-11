@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'Authorization.apps.AuthorizationConfig',
     'rest_framework.authtoken',
     'django.contrib.staticfiles',
+    # 'social_django',
 ]
 
 REST_FRAMEWORK = {
